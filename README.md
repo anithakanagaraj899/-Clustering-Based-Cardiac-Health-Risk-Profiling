@@ -1,16 +1,20 @@
 # Clustering-Based-Cardiac-Health-Risk-Profiling
-This project analyzes a cardiac health dataset using unsupervised learning techniques—specifically K-Means and Hierarchical Clustering. The goal is to group patients based on similar health characteristics and assess potential heart risk levels, enabling early intervention and data-driven public health strategies.
+This project analyzes a cardiac health dataset using unsupervised learning techniques specifically K-Means and Hierarchical Clustering. The goal is to group patients based on similar health characteristics and assess potential heart risk levels, enabling early intervention and data-driven public health strategies.
 
 ## Dataset
 
 The dataset (`Modified_Heart_failure_data.csv`) includes clinical features such as:
 - Age
-- Anaemia
+- Anaemia (Yes/No)
+- Diabetes (Yes/No)
+- High Blood Pressure (Yes/No)
 - Platelet Count
-- Creatinine Phosphokinase
-- Diabetes
-- High Blood Pressure
+- Serum Creatinine
+- Serum Sodium
 - Ejection Fraction
+- Creatinine Phosphokinase
+- Smoking (Yes/No)
+- Death Event (used only for insight, not as a label)
 
 These indicators help uncover hidden patterns and form meaningful patient clusters for health risk stratification.
 
